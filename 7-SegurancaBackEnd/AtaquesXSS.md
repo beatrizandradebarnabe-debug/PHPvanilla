@@ -12,7 +12,7 @@ Abra o navegador e teste os seguintes payloads na caixa de texto ou diretamente 
    ```text
    <img src="nao_existe.jpg" onerror="alert('XSS via Imagem!')">
    ```
-   *Resultado:* A imagem quebra e o JavaScript executa instantaneamente.
+   *Resultdo:* A imagem quebra e o JavaScript executa instantaneamente.
 
 3. **Teste 3 (Quebra de Atributo Input):**
    ```text

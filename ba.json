@@ -25,6 +25,7 @@
       "ativo": false
     },
     {
+    
       "nome": "laura",
       "idade": 31,
       "ativo": true,
@@ -33,3 +34,4 @@
   ],
   "$schema": "./node_modules/json-server/schema.json"
 }
+

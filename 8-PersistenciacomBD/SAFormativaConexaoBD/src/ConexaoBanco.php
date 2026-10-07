@@ -3,6 +3,8 @@ declare(strict_types=1);
 
 //Criar a Classe responsável por fornecer uma instancia única de conexão usando PDO com o Banco de Dados (Singleton)
 
+
+
 final class ConexaoBanco{
     //atributos => são as caracteristicas do objeto
     private static ?PDO $instancia = null; // muda de acordo com a conexao. inicialmente é nulo , mas depois pode mudar para conectado
@@ -16,6 +18,7 @@ final class ConexaoBanco{
     private function __clone(): void {}
     public function __wakeup(): void {throw new \Exception("Desserialização não permitida no Singleton");}
 
+    
     //Fazer a técnica de obterConexao PDO
     public static function obterConexao(string $caminhoConfig):PDO {
         // so vou criar uma nova conexão se não exisitir outra

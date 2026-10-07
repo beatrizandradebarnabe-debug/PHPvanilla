@@ -14,6 +14,7 @@ function registrarErroLog(string $mensagem):void {
     if(!is_dir($pasta)){// se o arquivo não existe
         mkdir($pasta, 0755, true);//crio a pasta e o arquivo
     }
+    
     //configurando o formato da mensagem de erro
     $registro = sprintf("[%s] ERRO: %s%s", date("Y-m-d H:i:s"), $mensagem, PHP_EOL);
     file_put_contents(CAMINHO_LOG, $registro, FILE_APPEND); //adiciona a linha de texto ao arquivo

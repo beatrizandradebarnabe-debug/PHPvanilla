@@ -15,6 +15,7 @@ Caso não aparece:
 
 2. Validando o **PostgreSQL**
 
+
 Usando a Extensão do VSCode = postgresql -> instalar a extensão Chris Kolkman
 
 ## Passo 2 - Estrutura de Diretórios do Projeto

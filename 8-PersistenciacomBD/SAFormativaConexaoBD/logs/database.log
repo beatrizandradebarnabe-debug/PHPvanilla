@@ -1,3 +1,6 @@
 [2026-09-25 19:47:59] ERRO: Erro no banco de dados: SQLSTATE[42P01]: Undefined table: 7 ERRO:  relação "livros" não existe
 LINE 2:             FROM livros
                          ^
+
+
+

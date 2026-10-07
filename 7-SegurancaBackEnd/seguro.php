@@ -28,6 +28,8 @@ $nome = trim($_GET["nome"] ?? "");
         <input type="text" name="nome" value="<?php echo e($nome) ?>">
         <button type="submit">Atualizar</button>
     </form>
+
+    
     
 </body>
 </html>

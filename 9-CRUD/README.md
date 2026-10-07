@@ -48,6 +48,8 @@ ON CONFLICT (codigo_sku) DO NOTHING;
 
 Configurar as Credenciais no .ini
 
+
+
 ```ini
 ; Configurações de Conexão com o PostgreSQL 16+
 [database]

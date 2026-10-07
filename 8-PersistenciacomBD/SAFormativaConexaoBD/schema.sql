@@ -18,3 +18,4 @@ VALUES
 ('O Pequeno Príncipe', 'Antoine de Saint-Exupéry', 39.90, 'DISPONIVEL'),
 ('Dom Casmurro', 'Machado de Assis', 29.90, 'EMPRESTADO'),
 ('1984', 'George Orwell', 45.00, 'RESERVADO');
+
